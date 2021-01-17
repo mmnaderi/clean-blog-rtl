@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fa">
 
 <head>
 
@@ -9,18 +9,21 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Clean Blog - Contact</title>
+    <title>بلاگ تمیز - تماس با من</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
+    <!-- Bootstrap RTL Core CSS -->
+    <link href="css/bootstrap-rtl.min.css" rel="stylesheet">
+
     <!-- Custom CSS -->
-    <link href="css/clean-blog.min.css" rel="stylesheet">
+    <link href="css/clean-blog.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,600,700' rel='stylesheet' type='text/css'>
+    <link href='https://cdn.rawgit.com/rastikerdar/samim-font/master/dist/font-face.css' rel='stylesheet' type='text/css'>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -44,23 +47,23 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">Start Bootstrap</a>
+                <a class="navbar-brand" href="index.html">استارت بوت‌استرپ</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
+                <ul class="nav navbar-nav navbar-left">
                     <li>
-                        <a href="index.html">Home</a>
+                        <a href="index.html">خانه</a>
                     </li>
                     <li>
-                        <a href="about.html">About</a>
+                        <a href="about.html">درباره</a>
                     </li>
                     <li>
-                        <a href="post.html">Sample Post</a>
+                        <a href="post.html">نوشته‌ی نمونه</a>
                     </li>
                     <li>
-                        <a href="contact.html">Contact</a>
+                        <a href="contact.html">تماس</a>
                     </li>
                 </ul>
             </div>
@@ -76,9 +79,9 @@
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                     <div class="page-heading">
-                        <h1>Contact Me</h1>
+                        <h1>تماس با من</h1>
                         <hr class="small">
-                        <span class="subheading">Have questions? I have answers (maybe).</span>
+                        <span class="subheading">سؤالی دارید؟ من هم جواب دارم (شاید).</span>
                     </div>
                 </div>
             </div>
@@ -89,7 +92,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <p>Want to get in touch with me? Fill out the form below to send me a message and I will try to get back to you within 24 hours!</p>
+                <p>آیا می خواهید برای در تماس گرفتن با من؟ با پر کردن فرم زیر را برای من یک پیام ارسال و من سعی خواهد کرد که به شما در 24 ساعت!</p>
                 <!-- Contact Form - Enter your email address on line 19 of the mail/contact_me.php file to make this form work. -->
                 <!-- WARNING: Some web hosts do not allow emails to be sent through forms to common mail hosts like Gmail or Yahoo. It's recommended that you use a private domain email address! -->
                 <!-- NOTE: To use the contact form, your site must be on a live web host with PHP! The form will not work locally! -->
@@ -97,28 +100,28 @@
                     <div class="row control-group">
                         <div class="form-group col-xs-12 floating-label-form-group controls">
                             <label>Name</label>
-                            <input type="text" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your name.">
+                            <input type="text" class="form-control" placeholder="نام" id="name" required data-validation-required-message="لطفا نام خود را وارد کنید.">
                             <p class="help-block text-danger"></p>
                         </div>
                     </div>
                     <div class="row control-group">
                         <div class="form-group col-xs-12 floating-label-form-group controls">
                             <label>Email Address</label>
-                            <input type="email" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address.">
+                            <input type="email" class="form-control" placeholder="آدرس ایمیل" id="email" required data-validation-required-message="لطفا آدرس ایمیل خود را وارد کنید.">
                             <p class="help-block text-danger"></p>
                         </div>
                     </div>
                     <div class="row control-group">
                         <div class="form-group col-xs-12 floating-label-form-group controls">
                             <label>Phone Number</label>
-                            <input type="tel" class="form-control" placeholder="Phone Number" id="phone" required data-validation-required-message="Please enter your phone number.">
+                            <input type="tel" class="form-control" placeholder="شماره موبایل" id="phone" required data-validation-required-message="لطفا شماره موبایل خود را وارد کنید.">
                             <p class="help-block text-danger"></p>
                         </div>
                     </div>
                     <div class="row control-group">
                         <div class="form-group col-xs-12 floating-label-form-group controls">
                             <label>Message</label>
-                            <textarea rows="5" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                            <textarea rows="5" class="form-control" placeholder="پیام" id="message" required data-validation-required-message="لطفا پیامی بنویسید."></textarea>
                             <p class="help-block text-danger"></p>
                         </div>
                     </div>
@@ -126,7 +129,7 @@
                     <div id="success"></div>
                     <div class="row">
                         <div class="form-group col-xs-12">
-                            <button type="submit" class="btn btn-default">Send</button>
+                            <button type="submit" class="btn btn-default">ارسال</button>
                         </div>
                     </div>
                 </form>
@@ -167,14 +170,14 @@
                             </a>
                         </li>
                     </ul>
-                    <p class="copyright text-muted">Copyright &copy; Your Website 2014</p>
+                    <p class="copyright text-muted">کپی‌رایت &copy; سایت شما ۱۳۹۵</p>
                 </div>
             </div>
         </div>
     </footer>
 
     <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+    <script src="js/jquery.min.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
